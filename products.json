@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "Áo len nữ cổ tròn dệt thừng",
+        "price": "599.000",
+        "currency": "đ",
+        "largeimage": "./img/Áo/1.1.1.png",
+        "smallimage": [
+            "./img/Áo/1.1.1.png",
+            "./img/Áo/1.1.2.png",
+            "./img/Áo/1.1.3.png",
+            "./img/Áo/1.1.4.png",
+            "./img/Áo/1.1.5.png"
+        ],
+        "code": "6TE24W013", 
+        "color": "EECBB4",
+        "size": "S, M, L, XL",
+        "description": "Áo len nữ cổ tròn dệt thừng, dài tay, dáng áo rộng vừa, chất liệu dệt len mềm mại, ấm áp. Hoàn cảnh sử dụng linh hoạt.",
+        "material": "46% nylon 23% acrylic 23% polyester 8% lurex.",
+        "guide": "Giặt máy ở nhiệt độ thường.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi trong bóng mát.Sấy khô ở nhiệt độ thấp.\nLà ở nhiệt độ thấp 110 độ C.Giặt với sản phẩm cùng màu.\nKhông là lên chi tiết trang trí."
+    },
+    {
+        "id": 2,
+        "name": "Áo khoác dạ nữ hai lớp cổ tròn dáng suông",
+        "price": "799.200",
+        "currency": "đ",
+        "largeimage": "./img/Áo/2.1.1.png",
+        "code": "6OT24W017",
+        "color": "C7C1CE",
+        "size": "S, M, L, XL",
+        "description": "Áo dạ hai lớp dài tay, cổ tròn, cài cúc, dáng suông. Chất liệu dạ mịn mang lại cảm giác mềm mại, ấm áp, đứng dáng. Phù hợp với môi trường công sở, dạo phố.",
+        "material": "90% polyester 10% rayon.\nLớp lót: 100% polyester.",
+        "guide": "Giặt máy ở nhiệt độ thường,không ngâm.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi trong bóng mát.\nKhông sử dụng máy sấy.\nLà ở nhiệt độ thấp 110 độ.\nGiặt riêng.\nKhông là lên chi tiết trang trí.\nSản phẩm có thể dây màu ra màu sáng hơn."
+    },
+    {
+        "id": 3,
+        "name": "Áo cadigan nữ dài tay",
+        "price": "699.000",
+        "currency": "đ",
+        "largeimage": "./img/Áo/3.1.1.png",
+        "code": "6TC24W003",
+        "color": "EECAB7",
+        "size": "S, M, L, XL",
+        "description": "Áo cardigan nữ, dài tay dệt thừng. Dáng áo rộng vừa, chất liệu dệt len mềm mại, ấm áp. Hoàn cảnh sử dụng linh hoạt.",
+        "material": "50% nylon 25% acrylic 25% recycle polyester.",
+        "guide": "Giặt máy ở chế độ nhẹ, nhiệt độ thường.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi vắt ngang, trong bóng mát.\nSấy khô ở nhiệt độ thấp.\nLà ở nhiệt độ thấp 110 độ C.\nGiặt mặt trái sản phẩm.\nGiặt với sản phẩm cùng màu.\nLàm ẩm sản phẩm khi là."
+    },
+    {
+        "id": 4,
+        "name": "Áo khoác gió nữ hai lớp, cổ bẻ, kéo khóa",
+        "price": "629.300",
+        "rootprice": "899.000",
+        "currency": "đ",
+        "largeimage": "./img/Áo/4.1.1.png",
+        "code": "6OT24W005",
+        "color": "C2A084",
+        "size": "S, M, L, XL",
+        "description": "Áo khoác gió nữ",
+        "material": "Vải chính: 100% nylon.\nLớp lót: 100% polyester.",
+        "guide": "Giặt tay ở nhiệt độ thường,không ngâm.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi trong bóng mát.\nKhông sử dụng máy sấy.\nKhông là.\nGiặt với sản phẩm cùng màu."
+    },
+    {
+        "id": 5,
+        "name": "Áo len nữ cổ tròn dáng suông",
+        "price": "599.000",
+        "currency": "đ",
+        "largeimage": "./img/Áo/5.1.1.png",
+        "code": "6TE24W012",
+        "color": "E6D3C3",
+        "size": "S, M, L, XL",
+        "description": "Áo len nữ cổ tròn dáng suông, dài tay, dáng áo rộng vừa, chất liệu len mềm mại, ấm áp. Hoàn cảnh sử dụng linh hoạt.",
+        "material": "46% nylon 23% acrylic 23% polyester 8% lurex.",
+        "guide": "Giặt máy ở nhiệt độ thường.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi trong bóng mát.\nSấy khô ở nhiệt độ thấp.\nLà ở nhiệt độ thấp 110 độ C.\nGiặt với sản phẩm cùng màu.\nKhông là lên chi tiết trang trí."
+    },
+    {
+        "id": 6,
+        "name": "Áo len nữ cổ tròn dáng suông",
+        "price": "599.000",
+        "currency": "đ",
+        "largeimage": "./img/Áo/6.1.1.png",
+        "code": "6TE24W012",
+        "color": "E6D3C3",
+        "size": "S, M, L, XL",
+        "description": "Áo len nữ cổ tròn dáng suông, dài tay, dáng áo rộng vừa, chất liệu len mềm mại, ấm áp. Hoàn cảnh sử dụng linh hoạt.",
+        "material": "46% nylon 23% acrylic 23% polyester 8% lurex.",
+        "guide": "Giặt máy ở nhiệt độ thường.\nKhông sử dụng hóa chất tẩy có chứa Clo.\nPhơi trong bóng mát.\nSấy khô ở nhiệt độ thấp.\nLà ở nhiệt độ thấp 110 độ C.\nGiặt với sản phẩm cùng màu.\nKhông là lên chi tiết trang trí."
+    }
+]

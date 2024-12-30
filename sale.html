@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/sale.css">
+    <title>Khuyến mãi</title>
+</head>
+<body class="overflow-x-hidden">
+    <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #800208">
+            <div class="container">
+                <!-- logo  -->
+              <a class="navbar-brand text-white" href="#">T&Y</a>
+                <!-- button toggle  -->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- sidebar  -->
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- sidebar header  -->
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">T&Y</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- sidebar body  -->
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-start flex-grow-2 pe-3">
+                    <!-- san pham  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="ao.html">Áo</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="quan.html">Quần</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="vay.html">Váy</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="bo.html">Bộ</a></li>
+                        </ul>
+                      </li>
+                    <!-- khuyen mai  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link active text-white" href="sale.html" role="button" data-bs-toggle="dropdown" aria-current="page">
+                          Khuyến mãi
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#sale">Mã giảm giá</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#freeship">Mã freeship</a></li>
+                        </ul>
+                      </li>
+                      <!-- bộ sưu tập  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Bộ sưu tập
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Darling Xmas</a></li>
+                        </ul>
+                      </li>
+                      <!-- về cửa hàng  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Về cửa hàng
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Thông tin chung</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Chính sách cho KH</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Tìm kiếm">
+                    <button class="btn border-0" type="submit">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+                        </svg>                      
+                    </button>
+                  </form>
+                  <ul>
+                    <button class="icon">
+                        <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                        </svg>                  
+                    </button>
+                    <button class="icon">
+                        <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                        </svg> 
+                    </button>
+                    <button class="icon">
+                        <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                        </svg>
+                    </button>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    
+    <!-- body  --> 
+     <main>
+      <section>
+        <img src="./img/1.png" alt="" class="bannertop">
+        <section id="sale">
+            <div class="giam">
+                <img src="./img/giam.png" alt="" class="banner">
+                <li>
+                    <ul>
+                        <img src="./img/giam50.png" alt="" class="voucher">
+                        <img src="./img/giam500.png" alt="" class="voucher">
+                    </ul>
+                    <ul>
+                        <img src="./img/giam100.png" alt="" class="voucher">
+                        <img src="./img/giam15.png" alt="" class="voucher">
+                    </ul>
+                </li>
+            </div>
+        </section>
+        <section id="freeship">
+            <div class="free">
+                <img src="./img/free.png" alt="" class="banner">
+                <li>
+                    <ul>
+                        <img src="./img/free45.png" alt="" class="voucher">
+                        <img src="./img/free100.png" alt="" class="voucher">
+                    </ul>
+                    <ul>
+                        <img src="./img/free60.png" alt="" class="voucher">
+                        <img src="./img/free45.png" alt="" class="voucher">
+                    </ul>
+                </li>
+            </div>
+        </section>
+      </section>
+  </main> 
+</body>
+</html>
