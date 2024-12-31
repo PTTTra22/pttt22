@@ -188,6 +188,21 @@ p{
 
 /* detail popup  */
 
+.btn-free-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    padding: 0;
+    width: 500px;
+    height: 35px;
+    background-color: #00A375;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00A375;
+    border-radius: 3px;
+}
+
 .btn-ma-2{
     display: flex;
     align-items: center;
