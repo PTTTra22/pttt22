@@ -10,7 +10,9 @@ var delay_popup8 = 5000;
 const showMode = (openButton, modalContent, delay) => {
     const openBtn = document.getElementById(openButton);
     const modalContainer = document.getElementById(modalContent);
-
+    console.log(`Hello Tra ${openBtn} is shown at ${new Date().toLocaleTimeString()}`);
+    console.log(`Hello Khang ${modalContainer} is shown at ${new Date().toLocaleTimeString()}`);
+    modalContainer.classList.remove('show-modal');
     if (openBtn && modalContainer) {
         openBtn.addEventListener('click', () => {
             modalContainer.classList.add('show-modal');
@@ -83,6 +85,46 @@ function toggleLabel(btn) {
     if (btn.innerText === 'Lưu mã') {
         btn.innerText = 'Đã lưu';
     }
-    btn.style.color = '#800208';
-    btn.style.fontSize = '1vw';
+    const computedStyle = getComputedStyle(btn);
+    const borderColor = computedStyle.borderColor;
+    console.log(`Border color of the button: ${borderColor}`);
+    console.log(btn);
+    if(borderColor === 'rgb(128, 2, 8)') {
+        btn.style.color = '#800208';
+        btn.style.fontSize = '1vw';
+    }else{
+        btn.style.color = '#00A375';
+        btn.style.fontSize = '1vw';
+    }
 }
+// ======detail popup ======
+const modal = document.querySelectorAll('.model');
+const vcBtn = document.querySelectorAll('.voucher');
+const modalClose = document.querySelectorAll('.close');
+const modalPU = document.querySelectorAll('.khungpu');
+
+let activeModal = (modalClick) => {
+    modal[modalClick].classList.add('active-popup');
+}
+
+vcBtn.forEach((vcBtn, i) => {
+    vcBtn.addEventListener('click', () => {
+        activeModal(i);
+    })
+})
+
+modalClose.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modal.forEach((modalRemove) => {
+            modalRemove.classList.remove('active-popup');
+        })
+    })
+})
+
+modalPU.forEach((modalPU) => {
+    modalPU.addEventListener('click', (e) => {
+        e.stopPropagation();
+    })
+})
+
+
