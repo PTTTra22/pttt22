@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#thongtin {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+
+#freeship {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #800208;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar li {
+    position: relative;
+    white-space: nowrap;
+}
+
+#navbar li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #ffa07a;
+}
+
+#navbar li ul.dropdown {
+    width: 150px;
+    background: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+#navbar li ul.dropdown li {
+    display: block;
+}
+
+#navbar li ul.dropdown li a {
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+#navbar li ul.dropdown li a:hover {
+    background: #f4f4f4;
+}
+
+#navbar li:hover ul.dropdown {
+    display: block;
+}
+
+#navbar li img {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+#navbar li i {
+    font-size: 24px;  /* Điều chỉnh kích thước icon */
+    transition: color 0.3s ease;
+}
+
+#navbar li i:hover {
+    color: #ffa07a;  /* Đổi màu khi hover */
+}
+
+/* Styles for the search box */
+.search-container {
+    display: inline-block;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #4b4b4b;
+    padding: 5px 8px;
+    width: 243px;
+    height: auto;  /* Chiều cao tự căn chỉnh */
+    box-sizing: border-box;  /* Đảm bảo padding không làm tăng chiều rộng */
+}
+
+.search-box i {
+    font-size: 20px;
+    margin-right: 8px;  /* Cách lề phải 8px */
+    color: #4b4b4b;
+    
+}
+
+.search-box .search-text {
+    font-size: 16px;  /* Kích thước font chữ */
+    font-style: italic;  /* In nghiêng */
+    color: #4b4b4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.search-box i:hover{
+    color: #ffa07a;
+}

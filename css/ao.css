@@ -287,18 +287,19 @@ a{
 }
 
 .mau1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau2{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #F5F0E4;
-    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -737,7 +738,7 @@ a{
 .anhsanpham{
     display: grid;
     grid-template-columns: 4rem 20rem;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
 }
 
 .anhchon{
@@ -805,13 +806,100 @@ a{
 
 .left, .right{
     width: 2rem;
-    height: 1.5rem;
+    height: 1.rem;
     position: absolute;
     top: 0.2rem;
     align-items: center;
     justify-content: center;
 }
 
+.chitiet h3{
+    display: flex;
+    font-size: 1.2rem;
+}
 
+.ma{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
 
+.sao{
+    width: 17rem;
+    margin-bottom: 1rem;
+}
+
+.money{
+    background-color: #FFF2A9;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.KM{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #CA080B;
+    margin: 0.5rem 0.7rem 0.5rem 0rem;
+}
+
+.KM span {
+    text-decoration-line: underline;
+    margin-left: 0.15rem;
+}
+
+.GOC{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    margin: 0.5rem 0.5rem 0.6rem 0rem;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.15rem;
+    display: flex;
+    align-items: end;
+}
+
+.GOC span {
+    text-decoration-line: underline;
+}
+
+.giam{
+    font-size: 1.2rem;
+    color: #CA080B;
+    margin: 0.5rem 0.5rem 0.6rem 0rem;
+}
+
+h4 {
+    font-size: 1rem;
+    margin: 1.2rem 0.5rem 0.5rem 0rem;
+}
+
+.mausac1{
+    display: flex;
+}
+
+.mau1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #EECBB4;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+
+.mau2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #F5F0E4;
+    border-radius: 50%;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
 

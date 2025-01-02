@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Danh mục sản phẩm</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
-    <div class="container">
-        <header> 
-            <div class="title">PRODUCT LIST</div>
-            <div class="icon-cart">
-                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                </svg>   
-                <span>0</span>     
-            </div>
-            
-        </header>
-        <div class="ListProduct"></div>
+  <section id="thongtin">
+    <div>
+      <ul id="freeship">
+        <li>Giảm ngay 30K khi đăng ký hội viên</li>
+        <li>Giảm 10% với hóa đơn từ 500K</li>
+        <li>Miễn phí giao hàng trong bán kính 5km</li>
+      </ul>
     </div>
-
-    <script>
-        // lấy data từ product.json
-        let products = null;
-        fetch('products.json')
-            .then(response => response.json())
-            .then(data => {
-                products = data;
-                console.log(products);
-                addDataToHtml();
-            })
-        // gán dữ liệu vào html
-        let ListProduct = document.querySelector('.ListProduct');
-        function addDataToHtml(){
-            products.forEach(product => {
-                // tạo element mới
-                let newProduct = document.createElement('div');
-                newProduct.classList.add('item');
-                newProduct.innerHTML = `
-                    <a href='detail.html' data-id="${product.id}"><img src="${product.largeimage}"></a>
-                    <div class="name">${product.name}</div>
-                    <div class="price">${product.price} ${product.currency}
-                    <button class="iconcart" data-id="${product.id}">
-                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                        </svg>
-                    </button>
-                    </div>
-                `;
-                //thêm element vào ListProduct class
-                ListProduct.appendChild(newProduct);
-            })
-        }
-    </script>
-    <script src="https://kit.fontawesome.com/c2f9e1a859.js" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+  </section>
+  <section id="header">
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html"><img src="images/T&Y.png"></a></li>
+        <li>
+          <a href="sanpham.html">Sản phẩm</a>
+          <ul class="dropdown">
+            <li><a href="#">Áo</a></li>
+            <li><a href="#">Quần</a></li>
+            <li><a href="#">Váy</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Khuyến mãi</a>
+          <ul class="dropdown">
+            <li><a href="#">Mã giảm giá</a></li>
+            <li><a href="#">Mã freeship</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Bộ sưu tập</a>
+          <ul class="dropdown">
+            <li><a href="#">Darling Christmas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="aboutus.html">Về cửa hàng</a>
+          <ul class="dropdown">
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Chính sách cho KH</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="search-container">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <span class="search-text">Tìm kiếm</span>
+            </div>
+          </a>
+        </li>      
+        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        <li><a href="#"><i class="fas fa-user"></i></a></li>
+      </ul>
+    </div>
+  </section>
 </body>
 </html>
