@@ -1445,3 +1445,55 @@ h4 {
 .active-popup .khung {
     transform: rotateX(0);
 }
+
+footer {
+    background-color: #800208;
+    color: #fff;
+    padding: 2rem 4rem;
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%; /* Make footer full width */
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .footer-section .payment-methods img {
+    margin-right: 5px;
+    width: 18rem;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    /* text-align: center; */
+    margin-left: 5rem;
+  }
+  .footer-bottom a img {
+    margin-right: 1.5rem;
+    width: 1.5rem;
+  }
+  .company-info {
+      text-align: left;
+  }
+  .company-info p{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+  }
+  .company-info h3{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+  }

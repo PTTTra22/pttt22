@@ -1,0 +1,64 @@
+footer {
+    background-color: #990033;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%; /* Make footer full width */
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-section .payment-methods img {
+    margin-right: 5px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-bottom a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .company-info {
+      text-align: left;
+  }
+  .company-info p{
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .live-chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #990033;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .live-chat img {
+      width: 30px;
+  }

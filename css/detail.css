@@ -49,7 +49,7 @@ body{
     margin: 0;
 }
 
-.anhshow .active{
+.anhshow .active_img{
     position: relative;
     width: 39rem;
     z-index: 1;
@@ -68,8 +68,8 @@ body{
 .trai{
     width: 3rem;
     height: 3rem;
-    left: 16rem;
-    top: 25rem;
+    left: 18rem;
+    top: 26rem;
     /* background-color: white; */
     border-radius: 50%;
 }
@@ -77,8 +77,8 @@ body{
 .phai{
     width: 3rem;
     height: 3rem;
-    right: 54rem;
-    top: 25rem;
+    right: 50.5rem;
+    top: 26rem;
     /* background-color: white; */
     border-radius: 50%;
 }
@@ -280,6 +280,14 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
+.heart1{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+
 .heart1::before{
     position: absolute;
     top: 1.1rem;
@@ -295,7 +303,7 @@ h4 {
     transition: .3s;
 }
 
-.heart1.active::before{
+.heart1.chay::before{
     background-image: url(../img/HEART\ \(2\).png);
 }
 
@@ -315,7 +323,7 @@ h4 {
     cursor: pointer;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     border-radius: 3px;
 }
 .butt2{
@@ -364,6 +372,7 @@ h4 {
     margin-top: 4rem;
     background-color: white;
     border: 2px solid #800208;
+    margin-bottom: 4rem;
     
 }
 
@@ -502,6 +511,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
+    margin-bottom: 4rem;
 }
 
 .mau1::before{
@@ -611,7 +621,58 @@ h3{
 
 .goiy h3{
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
+footer {
+    background-color: #800208;
+    color: #fff;
+    padding: 2rem 4rem;
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%; /* Make footer full width */
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .footer-section .payment-methods img {
+    margin-right: 5px;
+    width: 18rem;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    /* text-align: center; */
+    margin-left: 5rem;
+  }
+  .footer-bottom a img {
+    margin-right: 1.5rem;
+    width: 1.5rem;
+  }
+  .company-info {
+      text-align: left;
+  }
+  .company-info p{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+  }
+  .company-info h3{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+  }
