@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/ao.css">
+    <link rel="website icon" type="png" href="./img/logo.png">
+    <title>Áo T&Y</title>
+</head>
+<body>
+    <div class="container">
+        <div class="link">
+            <span><a href="Trangchu.html" class="home">Trang chủ/</a></span>
+            <span><a href="sale2.html" class="sale">Áo</a></span>
+        </div>
+        <div class="than">
+            <div class="danhmuc">
+                <div class="all">
+                    <h3>
+                        <svg class="w-24 h-24 text-gray-800 icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M9 8h10M9 12h10M9 16h10M4.99 8H5m-.02 4h.01m0 4H5"/>
+                        </svg> Tất cả danh mục
+                    </h3>
+                    <div class="thanh"></div>
+                    <div class="danhmuccon">
+                        <svg class="w-6 h-6 arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M10.271 5.575C8.967 4.501 7 5.43 7 7.12v9.762c0 1.69 1.967 2.618 3.271 1.544l5.927-4.881a2 2 0 0 0 0-3.088l-5.927-4.88Z" clip-rule="evenodd"/>
+                        </svg>
+                        <a href="ao.html" class="do1">Áo</a>
+                        <a href="quan.html" class="do">Quần</a>
+                        <a href="vay.html" class="do">Váy</a>
+                        <a href="bo.html" class="do">Bộ</a>
+                    </div>
+                    <div class="thanh"></div>
+                </div>
+                <div class="filter">
+                    <h3>
+                        <svg class="w-6 h-6 text-gray-800 icon-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M18.796 4H5.204a1 1 0 0 0-.753 1.659l5.302 6.058a1 1 0 0 1 .247.659v4.874a.5.5 0 0 0 .2.4l3 2.25a.5.5 0 0 0 .8-.4v-7.124a1 1 0 0 1 .247-.659l5.302-6.059c.566-.646.106-1.658-.753-1.658Z"/>
+                        </svg>
+                        Bộ lọc tìm kiếm                         
+                    </h3>
+                    <div class="selected_1" id="selected">
+                    </div>
+                    <div class="thanh"></div>
+                </div>
+                <!-- theo danh muc -->
+                <div class="dropdown">
+                    <!-- select-btn -->
+                    <div class="select">
+                        <span>Theo danh mục</span>
+                        <!-- i  -->
+                        <div class="caret"></div>
+                    </div>
+                    <!-- options -->
+                    <ul class="menu">
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo len</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo khoác</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo giữ nhiệt</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo nỉ</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo cardigan</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo phông</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo polo</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo sơ mi</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo kiểu</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Áo chống nắng</span>
+                        </li>
+                    </ul>
+                    <div class="thanh"></div>
+                </div>
+                <!-- Theo chất liệu  -->
+                 <div class="dropdown">
+                    <!-- select-btn -->
+                    <div class="select">
+                        <span>Theo chất liệu</span>
+                        <!-- i  -->
+                        <div class="caret"></div>
+                    </div>
+                    <!-- options -->
+                    <ul class="menu">
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Cotton</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Lanh</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Voan</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Lụa</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Polyester</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Denim</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Canvas</span>
+                        </li>
+                    </ul>
+                    <div class="thanh"></div>
+                </div>
+                <!-- Theo kiểu dáng  -->
+                <div class="dropdown">
+                    <!-- select-btn -->
+                    <div class="select">
+                        <span>Theo kiểu dáng</span>
+                        <!-- i  -->
+                        <div class="caret"></div>
+                    </div>
+                    <!-- options -->
+                    <ul class="menu">
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Ngắn</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Dài</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Lửng</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Bó sát</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Suông</span>
+                        </li>
+                        <li class="option">
+                            <div class="checkbox"></div>
+                            <span class="select-text">Loe</span>
+                        </li>
+                    </ul>
+                    <div class="thanh"></div>
+                </div>
+            </div>
+
+            <div class="loc">
+                <div class="select-menu">
+                    <div class="select-btn">
+                        Sắp xếp theo 
+                        <span class="sBtn-text">Giá: Cao đến thấp</span>
+                        <span class="icon">
+                            <svg class="w-6 h-6 down" style="color: #800208" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 10 4 4 4-4"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <ul class="options">
+                        <li class="option_1">Bán chạy</li>
+                        <li class="option_1">Phổ biến</li>
+                        <li class="option_1">Giá: Cao đến thấp</li>
+                        <li class="option_1">Giá: Thấp đến cao</li>
+                    </ul>
+                </div>
+                <div class="sanpham">
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/1.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo len nữ cổ tròn dệt thừng
+                        </div>
+                        <div class="mau">
+                            <div class="mau1"></div>
+                            <div class="mau2"></div>
+                        </div>
+                        <div class="gia">
+                            599.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/2.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo khoác dạ nữ hai lớp cổ tròn dáng suông
+                        </div>
+                        <div class="mau_2">
+                            <div class="mau_2_1"></div>
+                            <div class="mau_2_2"></div>
+                        </div>
+                        <div class="gia">
+                            799.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/3.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo cardigan nữ tay dài
+                        </div>
+                        <div class="mau_3">
+                            <div class="mau_3_1"></div>
+                            <div class="mau_3_2"></div>
+                        </div>
+                        <div class="gia">
+                            699.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/4.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo khoác gió nữ hai lớp, cổ bẻ, khóa kéo
+                        </div>
+                        <div class="mau_4">
+                            <div class="mau_4_1"></div>
+                            <div class="mau_4_2"></div>
+                        </div>
+                        <div class="gia">
+                            899.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/7.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo len nữ cổ tròn tay lửng
+                        </div>
+                        <div class="mau_7">
+                            <div class="mau_7_1"></div>
+                            <div class="mau_7_2"></div>
+                        </div>
+                        <div class="gia">
+                            149.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/5.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo cardigan nữ
+                        </div>
+                        <div class="mau_5">
+                            <div class="mau_5_1"></div>
+                            <div class="mau_5_2"></div>
+                        </div>
+                        <div class="gia">
+                            599.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/6.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo giữ nhiệt nữ cổ lửng
+                        </div>
+                        <div class="mau_6">
+                            <div class="mau_6_1"></div>
+                            <div class="mau_6_2"></div>
+                        </div>
+                        <div class="gia">
+                            299.000 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/8.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo hoodie nữ
+                        </div>
+                        <div class="mau_8">
+                            <div class="mau_8_1"></div>
+                            <div class="mau_8_2"></div>
+                        </div>
+                        <div class="gia">
+                            559.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/9.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo khoác nỉ nữ cotton USA
+                        </div>
+                        <div class="mau_9">
+                            <div class="mau_9_1"></div>
+                            <div class="mau_9_2"></div>
+                        </div>
+                        <div class="gia">
+                            489.300 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/10.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo nỉ nữ có hình in
+                        </div>
+                        <div class="mau_10">
+                            <div class="mau_10_1"></div>
+                            <div class="mau_10_2"></div>
+                            <div class="mau_10_3"></div>
+                            <div class="mau_10_4"></div>
+                        </div>
+                        <div class="gia">
+                            319.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/11.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo nỉ nữ cotton có hình in chữ
+                        </div>
+                        <div class="mau_11">
+                            <div class="mau_11_1"></div>
+                            <div class="mau_11_2"></div>
+                        </div>
+                        <div class="gia">
+                            223.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/12.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo nỉ unisex người lớn cotton USA có hình in
+                        </div>
+                        <div class="mau_12">
+                            <div class="mau_12_1"></div>
+                            <div class="mau_12_2"></div>
+                            <div class="mau_12_3"></div>
+                        </div>
+                        <div class="gia">
+                            519.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/13.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo khoác nỉ nữ
+                        </div>
+                        <div class="mau_13">
+                            <div class="mau_13_1"></div>
+                            <div class="mau_13_2"></div>
+                            <div class="mau_13_3"></div>
+                            <div class="mau_13_4"></div>
+                        </div>
+                        <div class="gia">
+                            799.200 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/14.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo khoác nỉ nữ
+                        </div>
+                        <div class="mau_14">
+                            <div class="mau_14_1"></div>
+                            <div class="mau_14_2"></div>
+                        </div>
+                        <div class="gia">
+                            699.300 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    <div class="sanpham1">
+                        <div class="anh">
+                            <img src="./img/Áo/15.1.1.png" alt="">
+                        </div>
+                        <div class="heart">
+                            <svg class="w-6 h-6 heart_in" style="color: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                            </svg>                              
+                        </div>
+                        <div class="ten">
+                            Áo len nữ cotton cổ leo dáng ôm
+                        </div>
+                        <div class="mau_15">
+                            <div class="mau_15_1"></div>
+                            <div class="mau_15_2"></div>
+                        </div>
+                        <div class="gia">
+                            249.500 <span>đ</span>
+                        </div>
+                        <div class="giohang">
+                            <svg class="w-6 h-6 text-gray-800 gio" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>                          
+                        </div>
+                    </div>
+                    
+                </div><div class="end"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c2f9e1a859.js" crossorigin="anonymous"></script>
+    <script src="./js/ao.js"></script>
+</body>
+</html>
