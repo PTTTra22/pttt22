@@ -252,6 +252,7 @@ a{
 /* san pham  */
 
 .anh{
+    /* position: relative; */
     display: flex;
     justify-content: center;
     padding-top: 0.5rem;
@@ -293,9 +294,11 @@ a{
     border-radius: 3px;
     background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 1.5px solid #800208;
 }
 
 .mau2{
+    position: relative;
     width: 2rem;
     height: 2rem;
     border-radius: 3px;
@@ -333,19 +336,49 @@ a{
 }
 
 .mau_2_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+
 }
 
 .mau_2_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #eeeeee;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+}
+.mau_2_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #C7C1CE;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_2_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #EDE0D9;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_3{
     display: flex;
@@ -355,19 +388,47 @@ a{
 }
 
 .mau_3_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #eeeeee;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_3_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_3_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #EECAB7;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_3_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ECE4DC;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_4{
     display: flex;
@@ -377,19 +438,47 @@ a{
 }
 
 .mau_4_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_4_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_4_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #2E2C1F;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_4_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #C2A084;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_5{
     display: flex;
@@ -399,19 +488,47 @@ a{
 }
 
 .mau_5_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_5_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_5_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #202024;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_5_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #8D5C41;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_6{
     display: flex;
@@ -421,19 +538,47 @@ a{
 }
 
 .mau_6_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_6_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_6_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #624535;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_6_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #4A4341;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_7{
     display: flex;
@@ -443,19 +588,47 @@ a{
 }
 
 .mau_7_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_7_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_7_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #EDEBE7;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_7_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #202024;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_8{
     display: flex;
@@ -465,19 +638,47 @@ a{
 }
 
 .mau_8_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_8_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_8_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #4A4341;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_8_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #EAD7B4;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_9{
     display: flex;
@@ -487,19 +688,47 @@ a{
 }
 
 .mau_9_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_9_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_9_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #353746;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_9_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #BB8D64;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_10{
     display: flex;
@@ -509,19 +738,47 @@ a{
 }
 
 .mau_10_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_10_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_10_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #EECBB4;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_10_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #171A30;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_11{
     display: flex;
@@ -531,19 +788,47 @@ a{
 }
 
 .mau_11_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_11_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_11_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #212025;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_11_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #d3f1ed;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_12{
     display: flex;
@@ -553,19 +838,47 @@ a{
 }
 
 .mau_12_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_12_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_12_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #212025;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_12_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #b4d2ee;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_13{
     display: flex;
@@ -575,19 +888,47 @@ a{
 }
 
 .mau_13_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_13_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_13_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #8D5C41;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_13_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a4eab3;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_14{
     display: flex;
@@ -597,19 +938,47 @@ a{
 }
 
 .mau_14_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_14_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_14_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #c5da79;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_14_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #353746;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_15{
     display: flex;
@@ -619,19 +988,47 @@ a{
 }
 
 .mau_15_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_15_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_15_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #854215;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_15_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #e47d38;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 .mau_16{
     display: flex;
@@ -641,19 +1038,47 @@ a{
 }
 
 .mau_16_1{
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #EECBB4;
-    border-radius: 50%;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .mau_16_2{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.mau_16_1::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #F5F0E4;
+    cursor: pointer;
     border-radius: 50%;
+    background-color: #EECBB4;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
+}
+.mau_16_2::before{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #EECBB4;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /* z-index: 0; */
 }
 
 .heart{
@@ -684,7 +1109,6 @@ a{
 .heart_in{
     width: 1.5rem;
     transition: .3s;
-    /* background-color: #800208; */
 }
 
 .heart.active::before{
@@ -707,10 +1131,10 @@ a{
     place-items: center;
     padding: 2rem 1.5rem;
     z-index: 1000;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: all .3s; */
+    transition: all .3s;
 }
 
 .khung{
@@ -721,9 +1145,9 @@ a{
     width: 850px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* row-gap: 15px; */
-    /* transition: all 0.3s;
-    transform: rotateX(90deg); */
+    row-gap: 15px;
+    transition: all 0.3s;
+    transform: rotateX(90deg);
 }
 
 .close {
@@ -760,15 +1184,11 @@ a{
     border: 2px solid #800208;
 }
 
-.anh{
+.anh1{
     width: 3rem;
     padding: 0;
     margin: 0;
 }
-
-/* .anhshow{
-    
-} */
 
 .anhshow .active{
     position: relative;
@@ -884,6 +1304,7 @@ h4 {
     content: '';
     width: 1.5rem;
     height: 1.5rem;
+    cursor: pointer;
     border-radius: 50%;
     background-color: #EECBB4;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -897,9 +1318,130 @@ h4 {
     content: '';
     width: 1.5rem;
     height: 1.5rem;
+    cursor: pointer;
     background-color: #F5F0E4;
     border-radius: 50%;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     /* z-index: 0; */
 }
 
+.size{
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+
+.size1{
+    width: 2rem;
+    height: 2rem;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+}
+
+.guide{
+    display: flex;
+    position: absolute;
+    top: -1.5rem;
+    right: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ruler{
+    height: 1rem;
+    width: auto;
+    align-items: center;
+    /* margin: 0.5rem 0.5rem 0.5rem 0.5rem; */
+}
+
+.hd{
+    font-size: 0.8em;
+    color: #F26C37;
+}
+
+.guide svg{
+    width: 1rem;
+    height: 1rem;
+    color: #F26C37;
+    cursor: pointer;
+}
+
+.soluong{
+    display: flex;
+    margin: 0;
+}
+
+.tru, .cong, .so{
+    width: 2rem;
+    height: 2rem;
+    background-color: #e6e6e6;
+    border: 1px solid #4b4b4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.heart1::before{
+    position: absolute;
+    top: 1.1rem;
+    right: 5rem;
+    content: '';
+    background-image: url(../img/HEART\ \(1\).png);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+
+.heart1.active::before{
+    background-image: url(../img/HEART\ \(2\).png);
+}
+
+.nut{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.butt{
+    width: 17rem;
+    height: 3rem;
+    background-color: #C80F3D;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.xemthem a{
+    color: #F26C37;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.active-popup {
+    opacity: 1;
+    visibility: initial;
+    pointer-events: initial;
+}
+
+.active-popup .khung {
+    transform: rotateX(0);
+}

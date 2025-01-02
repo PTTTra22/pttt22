@@ -60,3 +60,43 @@ hearts.forEach(heart => {
         console.log("clicked");
     });
 });
+
+const hearts1 = document.querySelectorAll(".heart1");
+
+hearts1.forEach(heart1 => {
+    heart1.addEventListener("click", () => {
+        heart1.classList.toggle("active");
+        console.log("clicked");
+    });
+});
+
+// active popup 
+
+const modal = document.querySelectorAll('.popup');
+const vcBtn = document.querySelectorAll('.sanpham1');
+const modalClose = document.querySelectorAll('.close');
+const modalPU = document.querySelectorAll('.khung');
+
+let activeModal = (modalClick) => {
+    modal[modalClick].classList.add('active-popup');
+}
+
+vcBtn.forEach((vcBtn, i) => {
+    vcBtn.addEventListener('click', () => {
+        activeModal(i);
+    })
+})
+
+modalClose.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modal.forEach((modalRemove) => {
+            modalRemove.classList.remove('active-popup');
+        })
+    })
+})
+
+modalPU.forEach((modalPU) => {
+    modalPU.addEventListener('click', (e) => {
+        e.stopPropagation();
+    })
+})
